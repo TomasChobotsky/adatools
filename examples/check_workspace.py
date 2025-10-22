@@ -10,10 +10,10 @@ import time
 # If you see that the translational o andular distance is too large, the manipulability is close to zero or the Jacobian of the robot loses rank (rank < 5), you should consider changing the robot's link lengths and offsets.
 
 # Create a robot based on config1
-robot = cg.get_robot_config_1(link1=0.3, link1_offset=0.0,
-                              link2=0.3, link2_offset=0.0,
-                              link3=0.2, link3_offset=0.0,
-                              link4=0.1, link4_offset=0.0)
+robot = cg.get_robot_config_1(link1=0.145, link1_offset=0.0,
+                                       link2=0.350, link2_offset=0.0,
+                                       link3=0.330, link3_offset=0.0,
+                                       link4=0.100, link4_offset=0.0)
 
 robot_plot = robot.plot(robot.qr, backend='pyplot') # plot the robot in its home position
 pt.plot_baseplate(robot_plot)  # plot the base plate

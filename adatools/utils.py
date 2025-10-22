@@ -84,4 +84,4 @@ def steps2rad(steps):
     valueScaled = float(steps - stepsMin) / float(stepsSpan)
 
     # Convert the 0-1 range into a value in the steps range.
-    return int(radMin + (valueScaled * radSpan))
+    return float(radMin + (valueScaled * radSpan))

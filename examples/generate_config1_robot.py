@@ -10,7 +10,7 @@
 from adatools import config_generator as cg
 
 
-my_conf1_robot = cg.get_robot_config_1(link1=0.3, link1_offset=0.0,
+my_conf1_robot = cg.get_robot_config_1(link1=0.145, link1_offset=0.0,
                                        link2=0.3, link2_offset=0.0,
                                        link3=0.3, link3_offset=0.0,
                                        link4=0.2, link4_offset=0.0)
